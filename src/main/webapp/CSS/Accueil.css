@@ -1,0 +1,64 @@
+.item{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    width: 40%;
+    height: 30%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    text-indent: 20px;
+    padding-top: 10px;
+}
+
+.item:nth-child(1){
+    background-image: url("../IMG/Ventes.jpg");
+    background-size: cover;
+    background-color:#3ee62b00;
+    /* background-blend-mode:multiply; */
+    transition:background-color 0.1s;
+}
+.item:nth-child(1):hover{
+    /* background-image: url("../IMG/background.jpg"); */
+    /* background-size: cover; */
+    background-color:#83ee77;
+    background-blend-mode:multiply;
+}
+.item:nth-child(2){
+    background-image: url("../IMG/background.jpg");
+    background-size: cover;
+    background-color:#7f9eed00;
+    /* background-blend-mode:multiply; */
+    transition:background-color 0.1s;
+}
+.item:nth-child(2):hover{
+    /* background-image: url("../IMG/background.jpg"); */
+    /* background-size: cover; */
+    background-color:#7f9eed;
+    background-blend-mode:multiply;
+}
+.item:nth-child(3){
+    background-image: url("../IMG/clients.jpg");
+    background-size: cover;
+    background-color:#f0c64400;
+    /* background-blend-mode:multiply; */
+    transition:background-color 0.1s;
+}
+.item:nth-child(3):hover{
+    /* background-image: url("../IMG/background.jpg"); */
+    /* background-size: cover; */
+    background-color:#f0c644;
+    background-blend-mode:multiply;
+}
+.item:nth-child(4){
+    background-image: url("../IMG/users.jpg");
+    background-size: cover;
+    background-color:#40008000;
+    /* background-blend-mode:multiply; */
+    transition:background-color 0.1s;
+}
+.item:nth-child(4):hover{
+    /* background-image: url("../IMG/background.jpg"); */
+    /* background-size: cover; */
+    background-color:#400080;
+    background-blend-mode:multiply;
+}

@@ -1,0 +1,99 @@
+main{
+    display: flex;
+    align-items: flex-start;
+}
+#clients,#achats{
+    background-color: white;
+    /* border-radius: 0px 0px 10px 10px; */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#clients>table,#achats>table{
+	display:block;
+	overflow-y:scroll;
+	max-height:calc(100% - 20px);
+}
+#clients{
+    display: grid;
+    width: calc(30% - 20px);
+    border-radius: 15px 0px 0px 15px;
+    height: calc(100% - 82px);
+}
+.details{
+	background-color: rgb(83, 237, 183);
+	border:none;
+	height:20px;
+	color:white;
+	border-radius:5px;
+	margin:3px;
+}
+.deleteSale{
+	background-color: #b9001c;
+	border:none;
+	color:white;
+	border-radius:5px;
+	margin:3px;
+}
+#achats{
+    display: grid;
+    width: calc(60% - 35px);
+    border-radius: 0px 15px 15px 0px;
+    height: calc(100% - 82px);
+    /* align-content: flex-start; */
+}
+table{
+    width: 100%;
+    align-self: flex-start;
+}
+th:nth-child(4),th:nth-child(5){
+    width: 20%;
+}
+td{
+    text-align: center;
+}
+td+td,th+th{
+    border-left: 1px solid lightslategray;
+}
+.ajouter>button{
+    margin-top: 10px;
+    background-color: rgb(127, 197, 255);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-self: center;
+    /* align-self: center; */
+}
+.ajouter{
+    /* background-color: red; */
+    display: grid;
+    width: 100%;
+    align-self: flex-end;
+    /* justify-content: center; */
+}
+#emailAndDelete{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#emailAndDelete>h4{
+    margin: 0px;
+}
+#emailAndDelete>button{
+    background: rgb(254, 102, 102);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    color: white;
+    width: 100px;
+}
+input{
+	margin-top:7px;
+	border-radius:10px;
+	height:25px;
+	border:1px solid lightgray;
+	outline:none;
+}

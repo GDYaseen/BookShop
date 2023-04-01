@@ -1,0 +1,153 @@
+#search{
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    width:calc(100% - 40px);
+    display:flex;
+    /* justify-content: space-between; */
+    column-gap: 20px;
+}
+#add{
+    /* background-color: red; */
+    border-radius: 10px 10px 0px 0px;
+    padding-bottom: 20px;
+    width:100%;
+    display:flex;
+    /* justify-content: space-between; */
+    column-gap: 10px;
+}
+#add>label{
+    width: 20%;
+}
+#search>input,#add>input{
+    width: 20%;
+    border: 1px solid lightgray;
+    text-indent: 10px;
+    border-radius: 5px;
+    outline: none;
+    max-width:100px;
+}
+#search>select{
+    width: 25%;
+}
+.btn{
+	background-color:lightgray;
+	cursor:pointer;
+	margin:0px;
+	width:100px;
+	height:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border: 1px solid gray;
+}
+#InventoryTable{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    padding: 20px;
+    margin-top: 20px;
+	height:70%;
+}
+#InventoryTable>table{
+    display:block;
+	overflow-y:auto;
+	height:90%;
+}
+#bookDetails{
+    background-color: white;
+    border-radius: 7px;
+    /* padding: 20px; */
+    width:25%;
+    overflow-y: auto;
+    max-height:95%;
+}
+main{
+    display:flex;
+    align-items: flex-start;
+    padding-top: 20px;
+    height: calc(100% - 85px) ;
+}
+main>div:first-child{
+    width: calc(70% - 30px);
+    margin-left: 15px;
+	height:100%;
+    /* border: 1px solid red; */
+}
+th{
+    background: #8D94A6;
+    height: 30px;
+    color: white;
+}
+th:first-child{
+	border-radius:5px 0px 0px 0px;
+}
+th:last-child{
+	border-radius:0px 5px 0px 0px;
+}
+tr:nth-child(even){
+    background-color: lightcyan;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+}
+td>button{
+    background: lightskyblue;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid white;
+}
+td:nth-child(2){
+	width:30%;
+}
+#bookButtons{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+
+}
+#bookButtons>*{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    /* border: 2px solid lightgray; */
+    border: none;
+    color: white;
+}
+#bookDetails>input,#bookDetails>select{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius:10px;
+    width: 200px;
+	height:25px;
+	border:1px solid lightgray;
+	outline:none;
+}
+#delete{
+    background-color: rgb(247, 100, 86);
+}
+#toggle{
+    background-color: rgb(3, 187, 89);
+}
+
+#bookDetails>img{
+    background-color: #666666;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+	box-shadow: inset 0px 0px 50px 1px #151515; 
+}
+#bookDetails>h1,#bookDetails>h4{
+	text-indent:20px;
+}
+
+#modify{
+	background-color: rgb(44,104,200);
+}

@@ -1,0 +1,68 @@
+:root{
+    --input:rgb(200,200,255);
+}
+@font-face{
+	font-family: "Raleway";
+	src:url("./RalewayFont/Raleway-Regular.ttf");
+}
+*{
+	font-family: Raleway;
+}
+div{
+    background-color: #2B2E3D;
+    width: 33%;
+    height: 100vh;
+    color: white;
+    display:grid;
+    align-content: center;
+    row-gap: 10px;
+    justify-items: center;
+}
+/* div>*{
+    border: 1px solid white;
+    margin: 0px;
+} */
+span{
+    font-size: 20px;
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+body{
+	height:100vh;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    background-color:#16151A;
+    background: url("../IMG/background.jpg") no-repeat center center;
+    background-size: cover;
+}
+form{
+    display: grid;
+    width: 80%;
+    row-gap: 30px;
+}
+form>input{
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid var(--input);
+    background-color: transparent;
+    color: white;
+    text-indent: 20px;
+    font-size: large;
+    outline: none;
+    transition:border 0.2s;
+}
+form>input:focus{
+	border: 3px solid var(--input);
+}
+button{
+    background-color: var(--input);
+    border: none;
+    height:50px;
+    color: white;
+    border-radius: 25px;
+    font-size: large;
+    cursor: pointer;
+}
